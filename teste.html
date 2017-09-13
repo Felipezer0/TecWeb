@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MundoInfor</title>
+	<link rel="stylesheet" href="fundo.css">
+</head>
+<body>
+	<h1>MundoInfor!</h1>
+	<form action="servidor" method="POST">
+		<label>E-mail</label>
+		<input type="text" name="email_user" maxlength="40" placeholder="DIGITE SEU E-MAIL" size="40" required = "true">
+		<br></br>
+		<label>Senha</label>
+		<input type="password" name="senha-user" maxlength="12" placeholder="PASSOWORD" size="40" required = "true">
+		<br></br>
+		<LABEL>OBS:</LABEL>
+		<textarea rows="5" cols="55 ">DIGITE SOBRE VOCÊ</textarea>
+		<br></br>
+		<br></br>
+
+		<label>Estado</label>
+		<select>
+			<option value="">Selecione</option>
+			<option value="SP">São Paulo</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="MG">Minas Gerais</option>
+		</select>
+		<br></br>
+		<input type="checkbox" value="TecW">TecWeb
+		<input type="checkbox" value="TecW">faculdade
+		<input type="checkbox" value="TecW">Cursos
+		<br></br>
+		<label>Qual linguagem você programa</label><br></br>
+		<input type="radio" value="TecW">Python
+		<input type="radio" value="TecW">java
+		<br></br>
+		<br></br>
+		<label>Escolha</label>
+		<input type="radio" name="opção" value="TecW">Cuso
+		<input type="radio" name="opção" value="Faculdade">Faculdade
+		<br></br>
+		<input type="reset" value="Limpa"><br/>
+		<br/>
+		<button type="submit" value="Envia">Envia Agora!!!</button>
+	</form>
+</body>
+</html>
